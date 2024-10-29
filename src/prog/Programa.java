@@ -3,8 +3,8 @@ package prog;
 public class Programa {
 
 	public static void main(String[] args) {
-		
-		System.out.println("Hola Daniel!");
+		String s = "Daniel";
+		System.out.printf("Hola %s!", s);
 
 	}
 
